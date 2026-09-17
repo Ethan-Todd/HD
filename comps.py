@@ -1,22 +1,22 @@
 TARGET = {
-    "ticker": "ABG",
-    "name": "Asbury Automotive",
-    "price": 243.03,
-    "diluted_eps": 21.50,
+    "ticker": "HD",
+    "name": "The Home Depot",
+    "price": 319.77,
+    "diluted_eps": 14.23,
 }
 
 PEERS = [
     {
-        "ticker": "AN",
-        "name": "AutoNation",
-        "price": 169.84,
-        "diluted_eps": 16.92,
+        "ticker": "LOW",
+        "name": "Lowe's",
+        "price": 200.05,
+        "diluted_eps": 11.85,
     },
     {
-        "ticker": "GPI",
-        "name": "Group 1 Automotive",
-        "price": 421.48,
-        "diluted_eps": 36.81,
+        "ticker": "TSCO",
+        "name": "Tractor Supply",
+        "price": 34.71,
+        "diluted_eps": 2.06,
     },
 ]
 
