@@ -1,0 +1,13 @@
+item,required,location_or_url,title,duration_or_as_of,timestamp_index,access_checked,frozen_or_commit_id,notes
+Research-Evolution.pdf,yes,INCOMPLETE,"Home Depot Research Evolution",2026-09-01,,no,WORKING,"Draft source: edition_a_unchanged.md plus 16_edition_b_draft.md; Edition A Brightspace receipt and frozen PDF still required"
+Repository,yes,https://github.com/Ethan-Todd/HD,"Home Depot Project 1 Rebuild",2026-09-01,,no,NOT YET PUBLISHED,"Remote main was dcc900b366f9e7d200e37d96cca31403cee2ecc4 and lacked rebuild files on 2026-10-19; enter the new published rebuild commit and confirm instructional-team access"
+Visible executed output,yes,05_part3_visible_output.txt,"Home Depot Part 3 Visible Output",2026-09-01,,local only,b7ad6536d81d415fa5d8aedf8911529cb934c6ee,"Complete locally; rerun and verify against frozen documents before submission"
+Decision memo or deck,yes,17_decision_memo_draft.md,"Home Depot Committee Decision Memo",2026-09-01,,no,WORKING,"Working draft; maximum two-page PDF still must be rendered and frozen"
+Validation-and-AI-Use.pdf,yes,15_validation_and_ai_use_working.md,"Home Depot Validation and AI Use",2026-09-01,,no,WORKING,"Working record; cold run, partner challenge status, access checks and final consistency review remain"
+Video 1,yes,INCOMPLETE,"Home Depot Research Evolution and AI Check",TARGET <=3:00,"See 18_video_outlines.md",no,NOT RECORDED,"Record actual video and enter stable unlisted/public URL, exact duration and timestamps"
+Transcript Video 1,yes,INCOMPLETE,transcript-video-1.txt,NOT RECORDED,,no,NOT CREATED,"Create and correct only from the actual Video 1 recording"
+Video 2,yes,INCOMPLETE,"Home Depot Code and Validation Walkthrough",TARGET <=5:00,"See 18_video_outlines.md",no,NOT RECORDED,"Include recorded fresh-environment run and highest-risk validation"
+Transcript Video 2,yes,INCOMPLETE,transcript-video-2.txt,NOT RECORDED,,no,NOT CREATED,"Create and correct only from the actual Video 2 recording"
+Video 3,yes,INCOMPLETE,"Home Depot Investment Committee Defense",TARGET <=5:00,"See 18_video_outlines.md",no,NOT RECORDED,"Live product/model demonstration is the main delivery"
+Transcript Video 3,yes,INCOMPLETE,transcript-video-3.txt,NOT RECORDED,,no,NOT CREATED,"Create and correct only from the actual Video 3 recording"
+Optional deployed output,no,NOT USED,"Not applicable",,,n/a,n/a,"Local runnable project and visible output are used"
