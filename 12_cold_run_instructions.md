@@ -42,7 +42,7 @@ Before running, show that the clone contains at least:
 - `edition_a_unchanged.md`;
 - `00_architecture_audit.md` through `20_partner_challenge_status.md`, including the visible output and working validation records.
 
-Verification on October 19, 2026 found that GitHub `main` was still at `dcc900b366f9e7d200e37d96cca31403cee2ecc4` and contained only the older course files. It did **not** contain the rebuild README, requirements file, or required scripts. Do not record the cold run or use that remote commit as submission evidence. First commit the complete rebuild, publish it at the repository root, clone it again, and confirm the inventory above.
+The pre-publication check found that GitHub `main` at `dcc900b366f9e7d200e37d96cca31403cee2ecc4` contained only the older course files. The rebuild was then merged without a force push, preserving that history. An unrecorded fresh-clone verification of merge commit `61f7364904d5315fe3190004870d7e6a90210853` confirmed the required inventory and all three scripts exited successfully. This verifies reproducibility but does **not** replace the assignment's recorded cold run; record the final remote `git rev-parse HEAD` shown when you perform it.
 
 ## Cold-run recording checklist — not yet completed
 

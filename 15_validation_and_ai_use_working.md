@@ -30,7 +30,7 @@ The complete load-bearing ledger is `04_part3_assumption_challenge_record.md`. S
 | Changed-input ownership | Prediction recorded after result | Human wording saved and committed before terminal-growth run | PASS | Accept record | `08_locked_changed_input_record.md`; commit `46e3d77…` |
 | Terminal-growth prediction magnitude | Human expected ~3% decline | Compare exact base/changed values | Actual −14.80%; direction right, magnitude wrong | Correct interpretation | `08_locked_changed_input_record.md` |
 | AI peer suggestion | Industry label hides economic mismatch | Check TSCO product mix in SEC filing | TSCO materially rural/consumable | Qualify, not close peer | `11_ai_output_check.md` |
-| Reproducibility | Works only in development environment | Recorded clean clone and three-script run | Not performed | **Incomplete** | `12_cold_run_instructions.md` |
+| Reproducibility | Works only in development environment | Recorded clean clone and three-script run | Unrecorded fresh clone of published merge passed all three scripts; required recording not performed | **Mechanics pass; recorded evidence incomplete** | `12_cold_run_instructions.md` |
 | Credited partner challenge | AI or author invents peer feedback | Preserve the partner's exact question, identity/credit, response and disposition | Edition A still contains a placeholder; no separate completed record located | **Incomplete—do not claim credit** | `edition_a_unchanged.md` |
 
 ## Locked Changed-Input Record
