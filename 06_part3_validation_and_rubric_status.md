@@ -25,13 +25,13 @@ Passed: FY2025 statement arithmetic and component sums; historical CFO + CFI + C
 
 | Requirement | Status | What remains |
 |---|---|---|
-| Published training-case known-answer | **Outstanding** | Run and preserve the exact published Project 1 benchmark; ordinary HD execution is not a substitute |
+| Published training-case known-answer | **Complete** | `benchmark_validation.py` reproduces all twelve published Week 3 outputs within stated tolerances; visible result in `14_training_benchmark_output.txt` |
 | Independent source/definition check | **Partly complete** | SEC inputs were checked; student must designate the submitted load-bearing check in the frozen record |
 | Pre-run directional test | **Complete** | Terminal growth 2.5% → 1.5%; frozen prediction and result are in `08_locked_changed_input_record.md` |
 | Locked Changed-Input Record | **Complete for this test** | Pre-run commit `46e3d779148b70b78a9ea9bde56ff9a9c7674c03`; wording, units, expected/actual result, decision effect, and mismatch preserved |
-| AI-output check | **Outstanding for frozen submission** | Independently test one actual AI claim and record accept/correct/qualify/reject plus exposed tool/model/version and date |
+| AI-output check | **Working record complete; frozen submission outstanding** | `11_ai_output_check.md` qualifies TSCO using its SEC product mix; incorporate into final Validation-and-AI-Use PDF and Video 1 |
 | Highest-risk failure test | **Code complete; demonstration outstanding** | Explain the chosen test in Video 2 |
-| Recorded cold run | **Outstanding** | Current successful execution is not a recorded fresh-environment cold run |
+| Recorded cold run | **Outstanding** | Instructions/checklist prepared in `12_cold_run_instructions.md`; development runs are not a recorded cold run |
 | Edition A receipt | **Not created here** | Preserve the actual Brightspace receipt; Edition A file remains unchanged |
 | Memo/deck, recordings, transcripts | **Deferred** | Complete after Part 3 review |
 
@@ -43,7 +43,7 @@ Passed: FY2025 statement arithmetic and component sums; historical CFO + CFI + C
 | Data integrity and traceability | SEC base/debt/shares; dated guidance; challenge record | Beta, marginal debt cost/tax, dilution, excess cash, leases, scenario decomposition |
 | Financial soundness and judgment | Linked statements → signed FCFF → WACC DCF; causal cases; EV and equity comps kept separate | Better WACC evidence and peer depth |
 | Technical execution and usability | Standard-library scripts, failure status, visible output, deterministic rerun | Environment file and fresh-user cold run |
-| Validation, sensitivity, reproducibility | Accounting/bridge/sign/boundary/monotonicity tests, grid, reverse DCF, Locked Changed-Input Record | Benchmark, frozen AI check, recorded cold run |
+| Validation, sensitivity, reproducibility | Accounting/bridge/sign/boundary/monotonicity tests, grid, reverse DCF, benchmark, Locked Changed-Input Record, working AI check | Frozen validation PDF and recorded cold run |
 | Professional communication | README, source-linked record, visible output, limitations, action/triggers | Final artifacts and manifest |
 
 ## Provisional interpretation

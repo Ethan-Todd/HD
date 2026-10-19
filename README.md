@@ -41,6 +41,15 @@ That script refreshes `05_part3_visible_output.txt`, so the dated inputs and res
 | `06_part3_validation_and_rubric_status.md` | Passed tests, outstanding evidence, and rubric map |
 | `07_comparable_valuation.md` | Preserved peer policy, dated inputs, P/E and EV/EBITDA definitions, lease convention, results and limits |
 | `08_locked_changed_input_record.md` | Frozen pre-run terminal-growth prediction, precommit, actual result, validation and decision effect |
+| `09_part4_decision_and_evidence_map.md` | Watch/defer explanation, range distinctions, base-value reconciliation and complete requirement map |
+| `10_locked_changed_input_blank.md` | Blank AI-off template and precommit instructions for any additional changed-input test |
+| `11_ai_output_check.md` | Actual AI peer suggestion independently checked and qualified |
+| `12_cold_run_instructions.md` | Fresh-environment commands and uncompleted recording checklist |
+| `13_source_consistency_audit.md` | Source accessibility, dates, definitions and cross-file consistency audit |
+| `benchmark_validation.py` | Published Week 3 twelve-output known-answer test |
+| `14_training_benchmark_output.txt` | Visible passing benchmark result |
+| `15_validation_and_ai_use_working.md` | Consolidated working validation/AI-use record; not yet a frozen PDF |
+| `requirements.txt` | Standard-library-only environment declaration |
 
 ## Part 1 versus Part 2
 
