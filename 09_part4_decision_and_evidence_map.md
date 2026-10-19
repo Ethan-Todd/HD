@@ -42,7 +42,7 @@ Expected answers: Year 1–5 FCFF **108.000000, 114.480000, 120.204000, 125.0121
 | Decision user, no-position action, target/security | `README.md`; this file | Complete |
 | Horizon, valuation date, currency, diluted-share basis, exclusions | `README.md`; `03_valuation_basis.md` | Complete; exact dilution remains provisional |
 | Unchanged Edition A | `edition_a_unchanged.md`; matching SHA-1 recorded in work log | File preserved; **Brightspace receipt still required** |
-| Edition B and A-to-B evidence table | None yet | **Incomplete; defer final narrative until checks resolved** |
+| Edition B and A-to-B evidence table | `16_edition_b_draft.md` | Working draft complete; **not frozen** |
 | FY2025 reported base reconciles to filing | `01_base_year_reconciliation.md`; `home_depot_fcff_model.py` | Complete mechanically; 10-K date corrected to Mar. 18 |
 | Facts, normalizations, forecasts, outputs distinguished | `04_part3_assumption_challenge_record.md` | Complete structure; unresolved items remain labelled |
 | Separate reported base and normalizations | `03_valuation_basis.md`; `04_part3_assumption_challenge_record.md` | Complete policy; several numeric normalizations unresolved and not embedded |
@@ -59,13 +59,14 @@ Expected answers: Year 1–5 FCFF **108.000000, 114.480000, 120.204000, 125.0121
 | Peer policy set before results | `07_comparable_valuation.md` | Complete |
 | Equity-value multiple | `07_comparable_valuation.md` | Complete: trailing GAAP P/E |
 | Enterprise-value multiple | `07_comparable_valuation.md` | Complete: trailing GAAP EV/EBITDA |
-| Dates, periods, debt/cash and lease convention | `07_comparable_valuation.md` | Complete, subject to price-source limitation |
+| Dates, periods, debt/cash and lease convention | `07_comparable_valuation.md`; `13_source_consistency_audit.md` | Dated ERP resolved; price amounts cross-verified; exchange-quality price evidence remains incomplete |
 | Relevant transaction evidence | No defensible transaction set selected | Not used; no unsupported transaction multiple invented |
 | Explain method disagreement; do not average | `07_comparable_valuation.md`; this file | Complete |
 | Provisional range, conditional action, monitoring/reversal | `05_part3_visible_output.txt`; this file | Complete, provisional |
 | Published known-answer reconciliation | `benchmark_validation.py`; `14_training_benchmark_output.txt` | Complete: all twelve outputs pass |
 | Independent load-bearing source/definition check | `11_ai_output_check.md`; `13_source_consistency_audit.md` | Complete for peer qualification and debt/lease definitions |
 | Human AI-off changed-input prediction and precommit | `08_locked_changed_input_record.md`; commit `46e3d77…` | Complete for terminal-growth test |
+| Credited partner challenge | `20_partner_challenge_status.md`; placeholder in preserved Edition A | **Incomplete; no challenge or credit invented** |
 | Blank procedure for another changed-input test | `10_locked_changed_input_blank.md` | Prepared; intentionally blank |
 | Highest-risk failure test | model/Part 3 terminal boundary, debt, sign and monotonicity tests | Code complete; **Video 2 demonstration incomplete** |
 | Actual AI output independently checked | `11_ai_output_check.md` | Complete working record; frozen PDF/video still incomplete |
@@ -73,21 +74,21 @@ Expected answers: Year 1–5 FCFF **108.000000, 114.480000, 120.204000, 125.0121
 | Recorded cold run | No recording yet | **Incomplete** |
 | Visible executed output | `05_part3_visible_output.txt`; `14_training_benchmark_output.txt` | Complete |
 | README/repository map and run commands | `README.md` | Complete working version |
-| Research-Evolution PDF | None | **Incomplete** |
+| Research-Evolution PDF | `edition_a_unchanged.md`; `16_edition_b_draft.md` | Draft components prepared; **PDF incomplete/not frozen** |
 | Validation-and-AI-Use frozen PDF | Markdown records only | **Incomplete** |
-| Decision memo/deck | Deferred by instruction | **Incomplete** |
-| Videos 1–3 and corrected transcripts | None | **Incomplete; do not claim complete** |
-| Brightspace manifest, URLs, access check | None | **Incomplete** |
+| Decision memo/deck | `17_decision_memo_draft.md` | Working draft prepared; **PDF incomplete/not frozen** |
+| Videos 1–3 and corrected transcripts | `18_video_outlines.md` | Outlines prepared; **recordings/transcripts incomplete** |
+| Brightspace manifest, URLs, access check | `19_submission_manifest.csv` | Twelve rows prepared; **URLs/access/frozen IDs incomplete** |
 
 ### Rubric mapping
 
 | Criterion | Primary current evidence | Main remaining risk |
 |---|---|---|
-| Problem definition and decision usefulness | `README.md`, this file, Edition A | Edition B and final committee artifact |
+| Problem definition and decision usefulness | `README.md`, this file, Edition A, working Edition B/memo | Freeze final committee artifacts |
 | Data integrity and traceability | files `01`, `03`, `04`, `07`, `13` | WACC proxies, price-source quality, dilution/excess cash |
 | Financial soundness and judgment | model, files `05`, `07`, this file | provisional WACC and narrow peers |
 | Technical execution and usability | three Python scripts, visible outputs, README | actual fresh-environment cold run |
 | Validation, sensitivity, reproducibility | files `08`, `10`, `11`, `12`, `14` | frozen validation PDF and recorded demonstration |
-| Professional communication | organized Markdown and visible results | memo/deck, recordings, transcripts, manifest |
+| Professional communication | organized Markdown, visible results, working memo/video plans | frozen memo, recordings, corrected transcripts, completed manifest |
 
 Educational AI finance class work; not professional financial advice.

@@ -19,7 +19,7 @@ Educational AI finance class work; not professional financial advice. Edition A 
 | Component | Value | Definition/calculation | Date | Status |
 |---|---:|---|---|---|
 | Risk-free rate | 4.79% | 10-year Treasury par yield | September 1, 2026 | Resolved: [U.S. Treasury](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202609&type=daily_treasury_yield_curve) |
-| Equity-risk premium | 4.14% | Trailing-12-month adjusted-payout implied ERP | September 1, 2026 | Selected convention: [Damodaran](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm) |
+| Equity-risk premium | 4.14% | Trailing-12-month adjusted-payout implied ERP | September 1, 2026 | [Damodaran official dated statement](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm?trk=public_post_reshare-text); its ERP calculation cites a 4.75% Treasury rate, while this model separately selects the Treasury's 4.79% 10-year par yield |
 | Levered beta | 1.00 | Five-year monthly provider beta | Not captured exactly on September 1 | **Unresolved dated evidence** |
 | Cost of equity | 8.93% | 4.79% + 1.00 × 4.14% | September 1 basis | Provisional because beta is unresolved |
 | Pre-tax debt cost | 4.3950% | $1,194 × 2 ÷ average financing debt | Latest six months | **Historical effective proxy, not marginal cost** |

@@ -10,8 +10,10 @@ Checked October 19, 2026. “Accessible” means the cited page opened during th
 | Home Depot Q2 FY2026 10-Q, accession 0001628280-26-058715 | Balance sheet Aug. 2; shares Aug. 18; filed Aug. 25, 2026 | SEC HTML accessible | Dates are correctly distinguished; latest filing public before Sep. 1 |
 | Home Depot Q2 release/guidance | Published Aug. 18, 2026 | IR page accessible | FY2026 total sales 2.5%–4.5%, comps 0%–2%, gross margin ~33.1%, capex ~2.5% of sales |
 | U.S. Treasury daily curve | Sep. 1, 2026 | Treasury page accessible | 10-year column shows 4.79%; definition remains 10-year par yield |
-| Damodaran ERP | Sep. 1, 2026 value used: 4.14% | Landing page accessible; exact dated observation is not directly reproduced by the saved link | **Evidence remains incomplete**; save the dated data row/file before freezing submission |
-| HD Sep. 1 close | $319.77 | FinanceCharts now redirects to CAPTCHA; other historical-data pages previously returned the same close | Amount cross-agrees, but **primary/exchange-quality saved evidence remains incomplete** |
+| Damodaran ERP | Sep. 1, 2026 value used: 4.14% | [Damodaran's official home page](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm?trk=public_post_reshare-text) directly states “Implied ERP on September 1, 2026 = 4.14% (Trailing 12 month, adjusted payout)” | **Resolved dated ERP observation.** Damodaran's calculation used a 4.75% Treasury rate; the model independently uses the Treasury's 4.79% 10-year par yield, so that convention difference remains disclosed rather than silently blended |
+| HD Sep. 1 close | $319.77 | Nasdaq's official historical-data page opened but displayed “Data currently not available”; independent historical tables from [Yahoo](https://es.finance.yahoo.com/quote/HD/history/), [Investing.com](https://mx.investing.com/equities/home-depot-historical-data), and [ChartExchange](https://chartexchange.com/symbol/nyse-hd/historical/) agree on the amount | Amount/date cross-verified; **exchange-quality saved evidence remains incomplete** |
+| LOW Sep. 1 close | $200.05 | [Yahoo historical prices](https://finance.yahoo.com/quote/LOW/history/) supports the amount; Nasdaq's historical archive was unavailable during the audit | Amount/date cross-verified; **exchange-quality saved evidence remains incomplete** |
+| TSCO Sep. 1 close | $34.71 | [Yahoo historical prices](https://ca.finance.yahoo.com/quote/TSCO/history/) and [Investing.com](https://www.investing.com/equities/tractor-supply-company-historical-data) agree | Amount/date cross-verified; **exchange-quality saved evidence remains incomplete** |
 | Lowe's Q2 10-Q | July 31 balance sheet; Aug. 25 shares; filed before Sep. 1 | SEC HTML accessible | Shares, cash and debt definitions trace to filing |
 | Tractor Supply Q2 10-Q | June 27 balance sheet; July 25 shares; filed Aug. 6 | SEC HTML accessible | Shares, cash, debt, finance leases and product mix trace to filing |
 | Local Week 3 training CSVs | Published course files | Accessible locally | Inputs and answer key copied exactly into benchmark code; all outputs pass |
@@ -42,8 +44,8 @@ Checked October 19, 2026. “Accessible” means the cited page opened during th
 
 ## Open corrections before freezing submission
 
-1. Save a directly reproducible Sep. 1 ERP observation rather than only a landing page.
-2. Save exchange-quality or Nasdaq historical-price evidence for all three Sep. 1 closes.
+1. Save exchange-quality or Nasdaq historical-price evidence for all three Sep. 1 closes if the archive becomes available; current amounts are cross-verified only with third-party tables.
+2. Preserve a PDF/screenshot of the official dated ERP statement for the frozen evidence package and explain the 4.75% ERP-source Treasury input versus the independently selected 4.79% Treasury par yield.
 3. Resolve or sensitivity-test exact award dilution, excess cash, marginal debt cost/tax and operating-lease rollforward.
 4. After final artifacts exist, compare every displayed valuation, date, unit and recommendation across them.
 

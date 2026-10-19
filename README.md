@@ -9,7 +9,8 @@ This folder is a separate rebuild. Edition A and every original project file out
 - Security: Home Depot common stock (NYSE: HD)
 - Currency: USD; statements in USD millions
 - Architecture: reported FY2025 → explicit five-year statements → signed FCFF → provisional WACC DCF → enterprise-to-equity bridge
-- Current reproducible result: **$234.31 per diluted share, provisional**
+- Current architecture result: **$234.31 per diluted share, provisional**
+- Current decision-testing base: **$234.00 per diluted share**; evidence-backed operating range **$220.99–$253.91**
 - Current script: `home_depot_fcff_model.py`
 - Exact command from the FIN 439 folder:
 
@@ -49,6 +50,11 @@ That script refreshes `05_part3_visible_output.txt`, so the dated inputs and res
 | `benchmark_validation.py` | Published Week 3 twelve-output known-answer test |
 | `14_training_benchmark_output.txt` | Visible passing benchmark result |
 | `15_validation_and_ai_use_working.md` | Consolidated working validation/AI-use record; not yet a frozen PDF |
+| `16_edition_b_draft.md` | Working Edition B and A-to-B table; not frozen |
+| `17_decision_memo_draft.md` | Working committee memo; not frozen |
+| `18_video_outlines.md` | Three distinct bounded video plans and transcript rules |
+| `19_submission_manifest.csv` | Twelve-row checklist manifest with incomplete items marked |
+| `20_partner_challenge_status.md` | Separate honest record that credited partner evidence remains incomplete |
 | `requirements.txt` | Standard-library-only environment declaration |
 
 ## Part 1 versus Part 2

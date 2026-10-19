@@ -15,7 +15,7 @@ This is the working Markdown source, not the final frozen submission PDF.
 
 ## Data and convention ledger
 
-The complete load-bearing ledger is `04_part3_assumption_challenge_record.md`. Source accessibility and definition checks are in `13_source_consistency_audit.md`. Unresolved beta, marginal debt cost/tax, exact dilution, excess cash, operating-lease rollforward, ERP capture and exchange-quality price evidence remain visible.
+The complete load-bearing ledger is `04_part3_assumption_challenge_record.md`. Source accessibility and definition checks are in `13_source_consistency_audit.md`. The official September 1 ERP observation is now directly cited. Unresolved beta, marginal debt cost/tax, exact dilution, excess cash, operating-lease rollforward, the ERP-source/model risk-free-rate convention difference, and exchange-quality price evidence remain visible.
 
 ## Validation register
 
@@ -31,6 +31,7 @@ The complete load-bearing ledger is `04_part3_assumption_challenge_record.md`. S
 | Terminal-growth prediction magnitude | Human expected ~3% decline | Compare exact base/changed values | Actual −14.80%; direction right, magnitude wrong | Correct interpretation | `08_locked_changed_input_record.md` |
 | AI peer suggestion | Industry label hides economic mismatch | Check TSCO product mix in SEC filing | TSCO materially rural/consumable | Qualify, not close peer | `11_ai_output_check.md` |
 | Reproducibility | Works only in development environment | Recorded clean clone and three-script run | Not performed | **Incomplete** | `12_cold_run_instructions.md` |
+| Credited partner challenge | AI or author invents peer feedback | Preserve the partner's exact question, identity/credit, response and disposition | Edition A still contains a placeholder; no separate completed record located | **Incomplete—do not claim credit** | `edition_a_unchanged.md` |
 
 ## Locked Changed-Input Record
 
@@ -55,7 +56,8 @@ Full detail is in `11_ai_output_check.md`. Before freezing the PDF, confirm the 
 
 - recorded cold run and Video 2 demonstration;
 - frozen Validation-and-AI-Use PDF;
-- directly saved dated ERP and exchange-quality prices;
+- frozen capture of the directly cited dated ERP statement and exchange-quality prices;
+- credited partner challenge record;
 - Edition B and Research-Evolution PDF;
 - memo/deck, Videos 1–3, transcripts, manifest and access checks.
 
