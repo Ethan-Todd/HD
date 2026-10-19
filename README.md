@@ -40,6 +40,7 @@ That script refreshes `05_part3_visible_output.txt`, so the dated inputs and res
 | `05_part3_visible_output.txt` | Executed Part 3 output visible without running code |
 | `06_part3_validation_and_rubric_status.md` | Passed tests, outstanding evidence, and rubric map |
 | `07_comparable_valuation.md` | Preserved peer policy, dated inputs, P/E and EV/EBITDA definitions, lease convention, results and limits |
+| `08_locked_changed_input_record.md` | Frozen pre-run terminal-growth prediction, precommit, actual result, validation and decision effect |
 
 ## Part 1 versus Part 2
 
