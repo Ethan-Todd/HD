@@ -75,3 +75,59 @@ Files to upload:
 Repository: <https://github.com/Ethan-Todd/HD>
 
 After uploading, verify that both GitHub file links open before pasting them into the Lab 13 quiz. Local files do not update GitHub automatically.
+
+## `portfolio.py` flowchart
+
+```mermaid
+flowchart TD
+    A[Editable inputs: sleeves, returns, volatility, correlations, objective, reserve assets] --> B[validate_inputs]
+    B --> C{Inputs valid?}
+    C -- No --> D[Print clear error and stop]
+    C -- Yes --> E[build_covariance_matrix]
+    E --> F[Covariance = correlation × volatility × volatility]
+
+    F --> G[build_portfolios]
+    G --> H[Benchmark weights]
+    G --> I[Equal weights]
+    G --> J[Inverse-volatility weights]
+    H --> K[portfolio_expected_return]
+    I --> K
+    J --> K
+    H --> L[portfolio_volatility]
+    I --> L
+    J --> L
+    H --> M[reserve_eligible_weight]
+    I --> M
+    J --> M
+    K --> N[meets_objective]
+    L --> O[print_portfolio]
+    M --> O
+    N --> O
+
+    P[Optional monthly prices CSV] --> Q[estimate_from_price_csv]
+    Q --> R[Check dates and prices]
+    R --> S[Calculate monthly returns]
+    S --> T{Use last 36 months?}
+    T -- Yes --> U[Keep last 36 monthly returns]
+    T -- No --> V[Keep all monthly returns]
+    U --> W[Annual return = monthly mean × 12]
+    V --> W
+    U --> X[Annual volatility = monthly standard deviation × √12]
+    V --> X
+    W --> Y[Calculate correlations]
+    X --> Y
+    Y --> B
+
+    F --> Z[find_lowest_risk_mix]
+    Z --> AA[Generate every long-only mix in 5-point steps]
+    AA --> AB{Return ≥ objective and reserve ≥ minimum?}
+    AB -- No --> AC[Discard mix]
+    AB -- Yes --> AD[Calculate portfolio volatility]
+    AD --> AE[Keep lowest-volatility feasible mix]
+    AC --> AF{More mixes?}
+    AE --> AF
+    AF -- Yes --> AA
+    AF -- No --> AG{Any feasible mix?}
+    AG -- Yes --> AH[Return weights, return, volatility, and reserve weight]
+    AG -- No --> AI[Return nothing: no mix meets the objective]
+```
